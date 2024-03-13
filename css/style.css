@@ -1,0 +1,453 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Riot&display=swap');
+/*.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }*/
+  /*.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../image/green.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.page1 .first .contact{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(13, 13, 13);
+    box-shadow: 0 1px 7px gray;
+}
+.page1 header nav .logo{
+    width: 100px;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0);
+    border-radius: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /*box-shadow: 0 0 7px gray;*/
+    color: #42db47;
+    font-size: 20px;
+}
+.page1 header nav .logo i{
+    color: #42db47;
+    font-size: 60px;
+}
+.page1 header nav .logo i h6{
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+}
+.page1 header nav .whatsapp {
+    width: 130px;
+    height: 40px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    box-shadow: 0 0 7px rgb(70, 67, 67);
+    transition: all 0.2s linear;
+    border-radius: 8px;
+}
+.page1 header nav .whatsapp i{
+    color: #fff;
+}
+.page1 header nav .whatsapp:hover{
+    background-color: rgb(14, 210, 14);
+    box-shadow: 0px 5px 12px rgb(14, 210, 14);
+}
+.page1 header nav .whatsapp a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+.page1 .first .contact a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px 0px 0;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+.page1 .first .contact a i{
+    color:rgb(14, 210, 14) ;
+} 
+.page1 .first .contact a b{
+    color: #828080;
+    font-size: 16px;
+}
+.page1 header nav{
+    width: 100%;
+    height: 90px;
+    /*background-color: rgb(202, 238, 202);*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page1 header nav .menu {
+    display: flex;
+}
+.page1 header nav .menu li{
+    list-style: none;
+    margin-right: 6px;
+    width: 80px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.page1 header nav .menu li i{
+    display: inline;
+}
+.page1 header nav .menu a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    padding: 9px 25px;
+    transition: all 0.3s linear;
+}
+.page1 header nav .menu a:hover{
+   color: #fff;
+   background-color: rgb(14, 210, 14);
+   border-radius: 14px;
+   box-shadow: 0px 0px 7px rgb(181, 172, 172);
+}
+.page1 header nav .menu a :active{
+    background-color: rgb(14, 210, 14);
+    border-radius: 14px;
+    box-shadow: 0px 0px 7px rgb(181, 172, 172);
+}
+.page1 .details{
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    
+}
+.page1 .details .head{
+    padding-top:50px ;
+    height: 60%;
+}
+.page1 .details .design{
+         width: 30%;
+         height: 60%;
+         display: flex;
+         align-content:center ;
+         justify-content: space-around;
+         gap: 30px;
+         flex-wrap: wrap;
+         padding: 50px 10px;
+} 
+.page1 .details .design .box{
+    width: 100px;
+    height:100px;
+    padding: 5px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px rgb(142, 132, 132);
+}
+.page1 .details .design .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.page1 .details h1{
+    color: rgb(22, 197, 22);
+    padding: 20px 0px;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 1px rgb(160, 154, 154);
+}
+.page1 .details h1 span{
+    color: black;
+    font-family: "popins",sans-serif;
+    font-size: 30px;
+}
+.page1 .details h2{
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: "popins",sans-serif;
+    font-size: 50px;
+    text-transform: lowercase;
+}
+.page1 .details h3{
+     color: black;
+     display: inline-block;
+     font-family: "popins",sans-serif;
+}
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(212, 243, 212);
+    position: relative;
+}
+#page2 .media{
+     position: absolute;
+     right: 150px;
+     top: 25%;
+}
+#page2 .media i{
+    padding: 0 15px;
+    color: rgb(22, 197, 22);
+    font-size: 20px;
+}
+#page2 .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+#page2 .content .image{
+    min-width: 250px;
+    height: 350px;
+    background-image:url(../image/white-cubes-3d-background.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    box-shadow: 0px 0px 15px rgb(168, 163, 163);
+    border-radius: 12px;
+}
+#page2 .content .image img{
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(3px 3px 7px rgb(77, 73, 73));
+    border-radius: 12px;
+}
+
+#page2 .content .me{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+#page2 h2{
+    font-size: 50px;
+    text-shadow: 0 0 7px rgb(68, 64, 64);
+    color: white;
+    font-family: "popins",sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+#page2 .content .me p{
+    width: 800px;
+    color: #363232;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "popins",sans-serif;
+}
+#page3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(202, 238, 202);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#page3 .hl{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3 .hl h1{
+    margin:0 auto ;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px 50px 15px 60px;
+    letter-spacing: 1px;
+    background-color: rgb(120, 238, 120) ;
+    text-transform: lowercase;
+    color: #fff;
+    text-shadow: 0px 0px 7px rgb(20, 19, 19);
+}
+#page3 .container{
+    width: 80%;
+    height: 80%;
+    margin: 0px 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+#page3 .container .image{
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+    background-color:rgb(14, 210, 14);
+    padding: 10px;
+}
+#page3 .container .box{
+    width: 20%;
+    height: 70%;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgb(96, 94, 94);
+}
+#page3 .container .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#page3 .container .box .topic{
+    color: #fff;
+    letter-spacing: 1px;
+}
+#footer{
+    width: 100vw;
+    height: 40vh;
+    background-color: grey;
+}
+#footer .fcon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#footer .fcon .left{
+    width: 60%;
+    height: 100%;
+    background-color: #fcfefd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer .fcon .left .social{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#footer .fcon .left .msg form{
+    display: flex;
+    flex-direction: column;
+}
+#footer .fcon .left .msg form button{
+    margin: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+#footer .fcon .left .msg button:hover{
+    background-color:rgb(29, 27, 27) ;
+    
+}
+#footer .fcon .left .social h3{
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    padding:10px 50px;
+    background-color: rgb(158, 215, 176);
+    font-family: "popins",sans-serif;
+    border-radius: 12px;
+}
+#footer .fcon .left a{
+    text-decoration: none;
+}
+#footer .fcon .left .social h6{
+    font-size: 18px;
+    color: rgb(169, 164, 164);
+    font-family: "popins",sans-serif;
+
+}
+#footer .fcon .left .msg form label{
+    font-size: 20px;
+    font-weight: 300;
+    color: #030303;
+    font-family: "popins",sans-serif;
+    padding: 10px;
+}
+#footer .fcon .left .msg form textarea{
+    border: none;
+    background-color: rgb(92, 87, 87);
+    color: white;
+    padding: 15px;
+    outline: none;
+}
+#footer .fcon .left .msg form textarea::placeholder{
+    color: #929692;
+    text-transform: uppercase;
+}
+#footer .fcon .right{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(212, 243, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer .fcon .right button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-family: "popins",sans-serif;
+    background-color:#42db47 ;
+    box-shadow: 0px 0px 7px rgb(202, 189, 189);
+    transition: all 0.3s linear;
+}
+#footer .fcon .right button:hover{
+    background-color:#6ba16c ;
+}
+.copyright{
+    width: 100%;
+    height: 35px;
+    background-color: #030303;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright p{
+    color: #fff;
+    font-family: "popins",sans-serif;
+    font-size: 16px;
+}
+.copyright p span{
+    color: #42db47;
+}
